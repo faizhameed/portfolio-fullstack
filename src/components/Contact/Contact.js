@@ -11,6 +11,7 @@ export default function ContactForm() {
     e.preventDefault();
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
+    const subject = document.getElementById("subject").value;
     const message = document.getElementById("message").value;
     const resetForm = () => {
       document.getElementById("contact-form").reset();
@@ -21,25 +22,24 @@ export default function ContactForm() {
       "http://localhost:3002/email"
     );
     headers.append("Access-Control-Allow-Credentials", "true"); */
+    var endpoint =
+      "https://h25w2ue6y0.execute-api.ap-south-1.amazonaws.com/default/ContactFormLambda";
 
-    axios({
+    var body = {
+      email: email,
+      subject: `name:${name}  subject:${subject}`,
+      message: message
+    };
+    var lambdaRequest = new Request(endpoint, {
       method: "POST",
-      url: "https://backend-portforlio.firebaseapp.com/email",
-      data: {
-        name: name,
-        email: email,
-        message: message
-      } /* ,
-      headers: headers */
-    }).then(response => {
-      console.log("response:", response);
-      if (response.data.message === "success") {
-        alert("Message Sent.");
-        resetForm();
-      } else if (response.data.msg === "fail") {
-        alert("Message failed to send.");
-      }
+      // Quick note: 'no-cors' mode is for development on localhost only!
+      mode: "no-cors",
+      body: JSON.stringify(body)
     });
+    fetch(lambdaRequest)
+      // This is where you can handle errors. This is just an example, so we won't cover that.
+      .then(response => alert(response))
+      .catch(err => console.log(err));
   };
   return (
     <React.Fragment>
@@ -92,6 +92,15 @@ export default function ContactForm() {
             variant="outlined"
             placeholder="Enter your email"
           />
+          <TextField
+            label="Subject"
+            type="text"
+            id="subject"
+            margin="normal"
+            variant="outlined"
+            placeholder="Enter the subject"
+          />
+
           <TextField
             label="Message"
             id="message"

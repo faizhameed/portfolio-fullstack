@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio-fullstack/static/css/main.928cb4f5.chunk.css",
-    "main.js": "/portfolio-fullstack/static/js/main.ed684fec.chunk.js",
-    "main.js.map": "/portfolio-fullstack/static/js/main.ed684fec.chunk.js.map",
-    "runtime-main.js": "/portfolio-fullstack/static/js/runtime-main.3e6c0ff2.js",
-    "runtime-main.js.map": "/portfolio-fullstack/static/js/runtime-main.3e6c0ff2.js.map",
-    "static/js/2.980d5ec0.chunk.js": "/portfolio-fullstack/static/js/2.980d5ec0.chunk.js",
-    "static/js/2.980d5ec0.chunk.js.map": "/portfolio-fullstack/static/js/2.980d5ec0.chunk.js.map",
-    "index.html": "/portfolio-fullstack/index.html",
-    "precache-manifest.2e09ae6ed9823a93187bb82fceb34e27.js": "/portfolio-fullstack/precache-manifest.2e09ae6ed9823a93187bb82fceb34e27.js",
-    "service-worker.js": "/portfolio-fullstack/service-worker.js",
-    "static/css/main.928cb4f5.chunk.css.map": "/portfolio-fullstack/static/css/main.928cb4f5.chunk.css.map",
-    "static/js/2.980d5ec0.chunk.js.LICENSE": "/portfolio-fullstack/static/js/2.980d5ec0.chunk.js.LICENSE",
-    "static/media/corefactors.jpg": "/portfolio-fullstack/static/media/corefactors.820199c7.jpg",
-    "static/media/freelance.jpg": "/portfolio-fullstack/static/media/freelance.486eb462.jpg",
-    "static/media/portfolio.png": "/portfolio-fullstack/static/media/portfolio.c93a7f6b.png"
+    "main.css": "./static/css/main.928cb4f5.chunk.css",
+    "main.js": "./static/js/main.af940703.chunk.js",
+    "main.js.map": "./static/js/main.af940703.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b03d6a54.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b03d6a54.js.map",
+    "static/js/2.980d5ec0.chunk.js": "./static/js/2.980d5ec0.chunk.js",
+    "static/js/2.980d5ec0.chunk.js.map": "./static/js/2.980d5ec0.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.50e0fe3b635625afd6d49778c631114e.js": "./precache-manifest.50e0fe3b635625afd6d49778c631114e.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.928cb4f5.chunk.css.map": "./static/css/main.928cb4f5.chunk.css.map",
+    "static/js/2.980d5ec0.chunk.js.LICENSE": "./static/js/2.980d5ec0.chunk.js.LICENSE",
+    "static/media/corefactors.jpg": "./static/media/corefactors.820199c7.jpg",
+    "static/media/freelance.jpg": "./static/media/freelance.486eb462.jpg",
+    "static/media/portfolio.png": "./static/media/portfolio.c93a7f6b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e6c0ff2.js",
+    "static/js/runtime-main.b03d6a54.js",
     "static/js/2.980d5ec0.chunk.js",
     "static/css/main.928cb4f5.chunk.css",
-    "static/js/main.ed684fec.chunk.js"
+    "static/js/main.af940703.chunk.js"
   ]
 }
