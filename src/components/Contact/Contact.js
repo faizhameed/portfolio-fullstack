@@ -1,27 +1,54 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import { Typography } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
-import axios from "axios";
 import { Element } from "react-scroll";
+
 import "./Contact.css";
 
 export default function ContactForm() {
+  const [mailSuccess, setMailSuccess] = useState(true)
+  const [triggerMail, setTriggerMail] = useState(false)
+  useEffect(()=>{
+    if(triggerMail){
+    if(!mailSuccess ){
+      alert("Error Sending message")
+    } else if(mailSuccess){
+      alert("Message Sent!")
+      document.getElementById("contact-form").reset();
+    }}
+  },[triggerMail])
   const handleSubmit = e => {
+    
     e.preventDefault();
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const subject = document.getElementById("subject").value;
     const message = document.getElementById("message").value;
-    const resetForm = () => {
-      document.getElementById("contact-form").reset();
-    };
+   
     /*  let headers = new Headers();
     headers.append(
       "Access-Control-Allow-Origin",
       "http://localhost:3002/email"
     );
     headers.append("Access-Control-Allow-Credentials", "true"); */
+    /*  axios({
+      method: "POST",
+      url: "URLOFBACKEND/email",
+      data: {
+        name: name,
+        email: email,
+        message: message
+      } 
+    }).then(response => {
+      console.log("response:", response);
+      if (response.data.message === "success") {
+        alert("Message Sent.");
+        resetForm();
+      } else if (response.data.msg === "fail") {
+        alert("Message failed to send.");
+      }
+    });*/
     var endpoint =
       "https://h25w2ue6y0.execute-api.ap-south-1.amazonaws.com/default/ContactFormLambda";
 
@@ -38,8 +65,12 @@ export default function ContactForm() {
     });
     fetch(lambdaRequest)
       // This is where you can handle errors. This is just an example, so we won't cover that.
-      .then(response => alert(response))
-      .catch(err => console.log(err));
+      .then(response => console.log(response))
+      .catch(err => {
+        console.log(err)
+      setMailSuccess('false')
+       setTriggerMail(true)
+    });
   };
   return (
     <React.Fragment>
