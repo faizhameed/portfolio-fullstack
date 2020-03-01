@@ -5,7 +5,7 @@ let project_list = [
 		title: 'Online Clothing Store',
 		des:
 			"Full Stack Project using ReactJS and FIREBASE Development of new highly-responsive, web-based user interface Online payment implementation with stripe State Managment using Redux",
-		tags: [ 'HTML', 'CSS', 'React', 'Redux','Firebase', 'JavaScript' ],
+		tags: [  'React', 'Redux','Firebase', 'JavaScript' ],
 		links: {
 			launch: 'https://online-clothing-store.herokuapp.com/',
 			github: 'https://github.com/faizhameed/clothing_store'
@@ -17,7 +17,7 @@ let project_list = [
 		title: 'Face Recognition Web App',
 		des:
 			"Full Stack Project using ReactJS and ExpressJS (NodeJS) Development of new highly-responsive, web-based user interface. Application detects faces in any image ",
-		tags: [ 'HTML', 'CSS', 'Javascript','nodejs','ReactJs' ],
+		tags: [ 'ExpressJs', 'Javascript','Nodejs','ReactJs' ],
 		links: {
 			launch: 'https://smart-brain6.herokuapp.com/',
 			github: 'https://www.github.com/Dhaval1403/React-Portfolio-Template'
