@@ -17,7 +17,7 @@ export default function ContactForm() {
       alert("Message Sent!")
       document.getElementById("contact-form").reset();
     }}
-  },[triggerMail])
+  },[triggerMail,mailSuccess])
   const handleSubmit = e => {
     
     e.preventDefault();
@@ -65,7 +65,10 @@ export default function ContactForm() {
     });
     fetch(lambdaRequest)
       // This is where you can handle errors. This is just an example, so we won't cover that.
-      .then(response => console.log(response))
+      .then(response => {console.log(response)
+      alert("Message Sent")
+      document.getElementById("contact-form").reset();
+      })
       .catch(err => {
         console.log(err)
       setMailSuccess('false')

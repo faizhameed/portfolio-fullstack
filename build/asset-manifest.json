@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "./static/css/main.928cb4f5.chunk.css",
-    "main.js": "./static/js/main.af940703.chunk.js",
-    "main.js.map": "./static/js/main.af940703.chunk.js.map",
+    "main.css": "./static/css/main.e68df73e.chunk.css",
+    "main.js": "./static/js/main.27d1968c.chunk.js",
+    "main.js.map": "./static/js/main.27d1968c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.b03d6a54.js",
     "runtime-main.js.map": "./static/js/runtime-main.b03d6a54.js.map",
-    "static/js/2.980d5ec0.chunk.js": "./static/js/2.980d5ec0.chunk.js",
-    "static/js/2.980d5ec0.chunk.js.map": "./static/js/2.980d5ec0.chunk.js.map",
+    "static/js/2.2400b5ac.chunk.js": "./static/js/2.2400b5ac.chunk.js",
+    "static/js/2.2400b5ac.chunk.js.map": "./static/js/2.2400b5ac.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.50e0fe3b635625afd6d49778c631114e.js": "./precache-manifest.50e0fe3b635625afd6d49778c631114e.js",
+    "precache-manifest.57ca79a969f475b5c10c5d14a9a2e82e.js": "./precache-manifest.57ca79a969f475b5c10c5d14a9a2e82e.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.928cb4f5.chunk.css.map": "./static/css/main.928cb4f5.chunk.css.map",
-    "static/js/2.980d5ec0.chunk.js.LICENSE": "./static/js/2.980d5ec0.chunk.js.LICENSE",
-    "static/media/corefactors.jpg": "./static/media/corefactors.820199c7.jpg",
+    "static/css/main.e68df73e.chunk.css.map": "./static/css/main.e68df73e.chunk.css.map",
+    "static/js/2.2400b5ac.chunk.js.LICENSE": "./static/js/2.2400b5ac.chunk.js.LICENSE",
+    "static/media/JavscriptClock.gif": "./static/media/JavscriptClock.0ad99aa2.gif",
+    "static/media/clothingStore.png": "./static/media/clothingStore.f4774947.png",
+    "static/media/corefactors.jpg": "./static/media/corefactors.61da4c0c.jpg",
+    "static/media/emailchips.gif": "./static/media/emailchips.c19b2da8.gif",
+    "static/media/facerecognition.png": "./static/media/facerecognition.1d630172.png",
     "static/media/freelance.jpg": "./static/media/freelance.486eb462.jpg",
-    "static/media/portfolio.png": "./static/media/portfolio.c93a7f6b.png"
+    "static/media/landing-page.png": "./static/media/landing-page.dce55be8.png",
+    "static/media/portfolio.png": "./static/media/portfolio.c93a7f6b.png",
+    "static/media/robotapp.png": "./static/media/robotapp.2938897d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b03d6a54.js",
-    "static/js/2.980d5ec0.chunk.js",
-    "static/css/main.928cb4f5.chunk.css",
-    "static/js/main.af940703.chunk.js"
+    "static/js/2.2400b5ac.chunk.js",
+    "static/css/main.e68df73e.chunk.css",
+    "static/js/main.27d1968c.chunk.js"
   ]
 }

@@ -1,7 +1,14 @@
+import clothingImg from '../assets/projects/clothingStore.png'
+import faceRecoImg from '../assets/projects/facerecognition.png'
+import emailChipsImg from '../assets/projects/emailchips.gif'
+import landingPageImg from '../assets/projects/landing-page.png'
+import robotappImg from '../assets/projects/robotapp.png'
+import JavscriptClockImg from "../assets/projects/JavscriptClock.gif"
+
 let project_list = [
 	{
 		image:
-			'https://drive.google.com/uc?id=1ZFbiXqnep2HGVEVIA8c-UQ-rR5NwYb9u',
+			clothingImg,
 		title: 'Online Clothing Store',
 		des:
 			"Full Stack Project using ReactJS and FIREBASE Development of new highly-responsive, web-based user interface Online payment implementation with stripe State Managment using Redux",
@@ -13,7 +20,7 @@ let project_list = [
 	},
 	{
 		image:
-			'https://drive.google.com/uc?id=1qci96UHTlpmqZjRh16N8epehxv77shwm',
+			faceRecoImg,
 		title: 'Face Recognition Web App',
 		des:
 			"Full Stack Project using ReactJS and ExpressJS (NodeJS) Development of new highly-responsive, web-based user interface. Application detects faces in any image ",
@@ -25,7 +32,7 @@ let project_list = [
 	},
 	{  /* -------------------------------- */
 		image:
-			'https://drive.google.com/uc?id=1qUyEAIyxV0W9jdoz79j2xU_WNcUnts2U',
+			emailChipsImg,
 		title: 'Email Chip',
 		des:
 			"A very simple react application representing the email chip function adding and removing chips when sending emails",
@@ -37,7 +44,7 @@ let project_list = [
 	},
 	{/* -------------------------------- */
 		image:
-			'https://drive.google.com/uc?id=1pDgejtRSOpR8I8yUidbNNtyK-qbJDtpI',
+			landingPageImg,
 		title: 'Landing Page',
 		des:
 			"Landing Page developed for Corefactors bangalore. Customer Relationship Management Service offered to help business manage their customers",
@@ -49,7 +56,7 @@ let project_list = [
 	},
 	{/* -------------------------------- */
 		image:
-			'https://drive.google.com/uc?id=1CBW3KdvYrrCW7chC1o6EWlRm7IvnHz1h',
+			robotappImg,
 		title: 'Robot Search App',
 		des:
 			"A simple search application with ReactJS. Fetching Api from JSON placeholder to develop a set of robot cards where user can search names",
@@ -61,7 +68,7 @@ let project_list = [
 	},
 	{/* -------------------------------- */
 		image:
-			'https://drive.google.com/uc?id=1DXb4hG4d3MDNJA0iBclYGC4JJJU53xzw',
+			JavscriptClockImg,
 		title: 'JavaScript Clock',
 		des:
 			"Javascript Clock is an application built with VanillaJS , where local time is fetched and shown in a clock. It has hour, minute and second hands",
